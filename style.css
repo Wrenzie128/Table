@@ -1,16 +1,18 @@
 body 
 {
+    
     font-family: Roboto;
     padding: 50px;
    
 }
 .design
 {
-    background-color: rgb(255, 204, 212);
+  
+    background-color: rgb(121, 162, 204);
 }
 h1
 {
-    font-size: large;
+    font-size: medium;
     text-align: center;
     font-weight: bold;
    
@@ -45,13 +47,12 @@ table td
 
 table
 {
-    
+    width: 50%;
+    height: 50%;
     box-shadow:0 0 20px black;
-
-    border-bottom: 10px solid blue;
     border-collapse: collapse;
     margin: 50px auto;
-    font-size: medium;
+    font-size: small;
     
 }
 
@@ -96,4 +97,7 @@ tr:hover
     box-shadow:0 0 20px black;
     border: 2px solid rgb(0, 0, 0);
     
+}
+.firstrow{
+    background-color: rgb(236, 231, 231);
 }
